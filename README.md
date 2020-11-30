@@ -33,4 +33,4 @@ The classification report is as follows:
 
 ## Model Inference
 Shapley explanations were plotted to find out why a certain category was picked over the others to understand what the model was focussing on.
-![Shapley Explanations]()
+![](https://raw.githubusercontent.com/aditya-jagdev/Classifying-Art-for-an-Art-Museum/main/SHAP%20Images/white%20bg.png)
