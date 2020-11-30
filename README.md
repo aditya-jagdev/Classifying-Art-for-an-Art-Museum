@@ -19,14 +19,14 @@ Using a fine tuned VGG16 model, an F1 score of 0.95 was achieved on the holdout 
 
 The classification report is as follows:
 
-         ||     precision   | recall  |f1-score  | support|
-|--- |--- |--- |--- |--- |
-         |  0  |     0.80   |   0.70    |  0.75     |  141|
-         |  1  |     0.70   |   0.94   |   0.80  |      96|
-          | 2  |     0.98  |    0.99|      0.98    |   264|
-         |  3    |   0.97   |   0.85  |    0.91    |   102|
-          | 4     |  0.99   |   0.97  |    0.98 |      219|
-
-  |  accuracy      |       |           |   0.91  |     822|
-  | macro avg    |   0.89   |   0.89  |    0.88   |    822|
-|weighted avg    |   0.92     | 0.91     | 0.91   |    822|
+|               |precision  |recall     |f1-score   |support    |
+|---            |---        |---        |---        |---        |
+|0              |0.80       |0.70       |0.75       |141        |
+|1              |0.70       |0.94       |0.80       |96         |
+|2              |0.98       |0.99       |0.98       |264        |
+|3              |0.97       |0.85       |0.91       |102        |
+|4              |0.99       |0.97       |0.98       |219        |
+|---            |---        |---        |---        |---        |
+|accuracy       |           |           |0.91       |822        |
+|macro avg      |0.89       |0.89       |0.88       |822        |
+|weighted avg   |0.92       |0.91       |0.91       |822        |
