@@ -11,10 +11,10 @@ Labelled images belonging to 5 categories were given. From the [data source](htt
 * Engraving: 1
 * Iconography: 2
 * Painting: 3
-* Sculpture:4 
-<br>
-* Detailed approach notes can be found [here](https://github.com/aditya-jagdev/Classifying-Art-for-an-Art-Museum/blob/main/Approach%20Notes.md). <br>
-* If you would like to view the analysis and results as a PowerPoint presentation, use this download [link](https://github.com/aditya-jagdev/Classifying-Art-for-an-Art-Museum/raw/main/Aditya%20Jagdev%20Tag%20the%20Art.pptx). <br>
+* Sculpture:4 <br><br>
+
+* Detailed approach notes can be found [here](https://github.com/aditya-jagdev/Classifying-Art-for-an-Art-Museum/blob/main/Approach%20Notes.md). 
+* If you would like to view the analysis and results as a PowerPoint presentation, use this download [link](https://github.com/aditya-jagdev/Classifying-Art-for-an-Art-Museum/raw/main/Aditya%20Jagdev%20Tag%20the%20Art.pptx). 
 
 ## Approach used and results achieved
 Using a fine tuned VGG16 model, an F1 score of 0.95 was achieved on the holdout set.
