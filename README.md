@@ -13,4 +13,20 @@ Labelled images belonging to 5 categories were given. From the [data source](htt
 * Painting: 3
 * Sculpture:4 
 
+## Approach used and results achieved
+Detailed approach notes can be found [here](https://github.com/aditya-jagdev/Classifying-Art-for-an-Art-Museum/blob/main/Approach%20Notes.md)
+Using a fine tuned VGG16 model, an F1 score of 0.95 was achieved on the holdout set.
 
+The classification report is as follows:
+
+         ||     precision   | recall  |f1-score  | support|
+|--- |--- |--- |--- |--- |
+         |  0  |     0.80   |   0.70    |  0.75     |  141|
+         |  1  |     0.70   |   0.94   |   0.80  |      96|
+          | 2  |     0.98  |    0.99|      0.98    |   264|
+         |  3    |   0.97   |   0.85  |    0.91    |   102|
+          | 4     |  0.99   |   0.97  |    0.98 |      219|
+
+  |  accuracy      |       |           |   0.91  |     822|
+  | macro avg    |   0.89   |   0.89  |    0.88   |    822|
+|weighted avg    |   0.92     | 0.91     | 0.91   |    822|
