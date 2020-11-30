@@ -30,3 +30,7 @@ The classification report is as follows:
 |accuracy       |           |           |0.91       |822        |
 |macro avg      |0.89       |0.89       |0.88       |822        |
 |weighted avg   |0.92       |0.91       |0.91       |822        |
+
+## Model Inference
+Shapley explanations were plotted to find out why a certain category was picked over the others to understand what the model was focussing on.
+![Shapley Explanations]()
