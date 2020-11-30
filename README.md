@@ -34,3 +34,10 @@ The classification report is as follows:
 ## Model Inference
 Shapley explanations were plotted to find out why a certain category was picked over the others to understand what the model was focussing on.
 ![](https://raw.githubusercontent.com/aditya-jagdev/Classifying-Art-for-an-Art-Museum/main/SHAP%20Images/white%20bg.png)
+
+The following confusion matrix heatmap shows how a significant portion of Drawings were misclassified as engravings.
+![](https://raw.githubusercontent.com/aditya-jagdev/Classifying-Art-for-an-Art-Museum/main/Confusion%20Matrix/cm.png)
+
+This may have been due to failure to capture the high level details of the images. To see what kind of low level features were being captured, the first layer filters were plotted in RGB.
+![](https://raw.githubusercontent.com/aditya-jagdev/Classifying-Art-for-an-Art-Museum/main/VGG%20Filters/layer%201.png)
+
