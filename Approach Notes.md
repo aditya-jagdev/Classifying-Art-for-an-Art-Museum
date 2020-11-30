@@ -1,5 +1,4 @@
 # Aditya Jagdev
-## Tag the Art Approach
 ---
 ### Approach Notes
 * This was an image classification problem. 
